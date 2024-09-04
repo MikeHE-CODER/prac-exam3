@@ -9,9 +9,9 @@ int main(){
     a.set_numberOfFlights(3);
     a.set_weight(100);
     a.fly(3,4);
-    a.get_fuel;
-    a.get_numberOfFlights;
-    a.get_weight;
-    a.refuel;
+    a.get_fuel();
+    a.get_numberOfFlights();
+    a.get_weight();
+    a.refuel();
 
 }
