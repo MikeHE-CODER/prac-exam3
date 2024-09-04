@@ -1,7 +1,7 @@
 #ifndef AirCraft_h
 #define AirCraft_h
 #include <iostream>
-
+using namespace std;
 class AirCraft{
 public:
 AirCraft();
@@ -17,6 +17,6 @@ int get_numberOfFlights();
 private:
 int weight;                  // the weight of AirCraft
 float fuel=1;                  // fuel percentage, initially 100%
-int numberOfFlights=0;         // initially 0
-}
+int numberOfFlights=0;        // initially 0
+};
 #endif
