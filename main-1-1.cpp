@@ -1,5 +1,6 @@
 #include "AirCraft.h"
 #include <iostream>
+using namespace std;
 int main(){
     AirCraft a;
     AirCraft b(3);
