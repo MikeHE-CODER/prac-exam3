@@ -13,10 +13,10 @@ void Helicopter::fly(int headwind, int minutes) {
   if (headwind < 40) {
     this->set_fuel(this->get_fuel() - 0.002 * minutes);
   } else {
-    this->set_fuel((this->get_fuel() - 0.004 * minutes);
+    this->set_fuel(this->get_fuel() - 0.004 * minutes);
   }
   if (this->get_weight() > 5670) {
-    this->set_weight(this->get_fuel()-0.0001 * minutes;
+    this->set_weight(this->get_fuel()-0.0001 * minutes);
   }
   if (this->get_fuel() < 0.2) {
     this->set_fuel(chushi);
