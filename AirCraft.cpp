@@ -1,5 +1,6 @@
 #include <iostream>
 #include "AirCraft.h"
+using namespace std;
 AirCraft::AirCraft(){}
 AirCraft::AirCraft(int w):weight(w){};             // creates an Aircraft with weight w
 void AirCraft::refuel(){this->refuel=1};               // Resets fuel back to 100%
